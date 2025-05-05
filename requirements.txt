@@ -4,4 +4,3 @@ openai
 langchain
 faiss-cpu
 tiktoken
-beautifulsoup4
