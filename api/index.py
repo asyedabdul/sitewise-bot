@@ -13,7 +13,7 @@ app = FastAPI()
 @app.on_event("startup")
 async def load_index():
     global qa_chain
-    loader = WebBaseLoader("https://yourdomain.com")  # Replace with your real site
+    loader = WebBaseLoader("https://skytechsolutions.us")  # Replace with your real site
     docs = loader.load()
     embeddings = OpenAIEmbeddings()
     vectorstore = FAISS.from_documents(docs, embeddings)
